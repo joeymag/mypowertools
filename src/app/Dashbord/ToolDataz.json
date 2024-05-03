@@ -1,0 +1,52 @@
+[
+    {
+    "brand": "dewalt",
+    "model": "dcd771c2",
+    "paidprice": 99.00,
+    "serial": "14154523456789",
+    "image": "https://m.media-amazon.com/images/I/51V1JHwdNRL._AC_UF894,1000_QL80_.jpg",
+    "isstolen": false
+},
+{
+    "brand": "dewalt",
+    "model": "dcd771c2",
+    "paidprice": 99.00,
+    "serial": "12143456789",
+    "image": "https://m.media-amazon.com/images/I/51V1JHwdNRL._AC_UF894,1000_QL80_.jpg",
+    "isstolen": false
+},
+{
+    "brand": "dewalt",
+    "model": "dcd771c2",
+    "paidprice": 99.00,
+    "serial": "1218443456789",
+    "image": "https://m.media-amazon.com/images/I/51V1JHwdNRL._AC_UF894,1000_QL80_.jpg",
+    "isstolen": false
+},
+{
+    "brand": "dewalt",
+    "model": "dcd771c2",
+    "paidprice": 99.00,
+    "serial": "123445456789",
+    "image": "https://m.media-amazon.com/images/I/51V1JHwdNRL._AC_UF894,1000_QL80_.jpg",
+    "isstolen": false
+},
+{
+    "brand": "dewalt",
+    "model": "dcd771c2",
+    "paidprice": 99.00,
+    "serial": "123456754489",
+    "image": "https://m.media-amazon.com/images/I/51V1JHwdNRL._AC_UF894,1000_QL80_.jpg",
+    "isstolen": false
+},
+{
+    "brand": "dewalt",
+    "model": "dcd771c2",
+    "paidprice": 99.00,
+    "serial": "123456789454",
+    "image": "https://m.media-amazon.com/images/I/51V1JHwdNRL._AC_UF894,1000_QL80_.jpg",
+    "isstolen": false
+}
+
+
+]
