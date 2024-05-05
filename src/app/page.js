@@ -1,5 +1,5 @@
 "use client";
-
+import tools from "./../../public/tools.jpg";
 import Image from "next/image";
 import {
   Card,
@@ -14,14 +14,14 @@ import { useState } from "react";
 const Home = () => {
 
   return (
-    <div className="  flex-1 bg-slate-600">
-      <div >
-        <img
-          src="https://www.hampshire.police.uk/SysSiteAssets/media/images/hampshire/news/2023/december/op-boromir---tools.jpg"
-          alt="logo"
-          width="w-full"
-          height="max-w-full"
-        />
+    <div className="   bg-slate-600">
+      <div className="flex-1 flex flex-row bg-red-500">
+        <Image 
+          src={tools}
+          width="max-w-full"
+          height="max-h-full"
+        >
+        </Image>
       </div>
       <div className="text-center p-4">
         <h1 className="font-bold">Welcome to MyToolSafe</h1>

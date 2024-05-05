@@ -28,7 +28,7 @@ import Popupmodale from '../edittools/page';
 
 
 
-const page =  () => {
+const Page =  () => {
   const [openModal, setOpenModal] = useState(false)
  // const tools = await fetchTools();
  // console.log(tools) 
@@ -82,4 +82,4 @@ const page =  () => {
     
     
 
-export default page;
+export default Page;
