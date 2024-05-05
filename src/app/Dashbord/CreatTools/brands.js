@@ -3,7 +3,7 @@
 
 // This file contains the list of brands that are used in the CreateTools component. This list is used to populate the brand dropdown in the form.
 
-const brands = [
+const Brands = [
     { label: "Select an brand", value: "" },
     { label: "Black & Decker", value: "Black & Decker" },
     { label: "DeWalt", value: "DeWalt" },
@@ -37,4 +37,4 @@ const brands = [
 
 ]
 
-export default brands;
+export default Brands;

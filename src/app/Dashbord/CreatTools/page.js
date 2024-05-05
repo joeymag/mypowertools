@@ -3,7 +3,7 @@
 import React from 'react'
 import { Select, SelectSection, SelectItem, Input, DateInput, Button, ButtonGroup } from "@nextui-org/react";
 import { CalendarDate } from "@internationalized/date";
-import brands from './brands'
+import Brands from './brands'
 import ToolType from './ToolType'
 //[x] image upload
 ///[x] brand slection
@@ -23,7 +23,7 @@ const animals = [
     { label: "Elephant", value: "elephant" },
 ];
 
-function page() {
+function Page() {
 
     const handleChage = (e) => {
         const { value } = e.target;
@@ -40,7 +40,7 @@ function page() {
                 <img src='https://i.pravatar.cc/150?u=a04258114e29026702d' className='h-20 w-20 '></img>
                 <div className='py-4 '>
                     <Select label="Select an brand" className="max-w-md text-black ">
-                        {brands.map((brand) => (
+                        {Brands.map((brand) => (
                             <SelectItem key={brand.value} value={brand.value}>
                                 {brand.label}
                             </SelectItem>
@@ -80,4 +80,4 @@ function page() {
     )
 }
 
-export default page
+export default Page
