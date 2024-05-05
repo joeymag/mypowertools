@@ -20,7 +20,7 @@ const Userdata = [
 
 
 
-function page() {
+function Page() {
   const [userlocation, setuserlocation] = useState(null);
   const [Userdata, setUserdata] = useState("");
   // ...
@@ -112,4 +112,4 @@ function page() {
   ) : <></>
 }
 
-export default page;
+export default Page;
